@@ -1,0 +1,19 @@
+.main-menu {
+    display: inline-block;
+    margin-right: 30px;
+    transition: all linear .3s;
+
+    a {
+        color: #707070;
+        margin-left: 25px;
+        padding: 10px;
+        transition: all 0.3s;
+        &:hover {
+            font-weight: 500;
+            color: #263F44;
+        }
+        
+    }   
+
+    
+}
