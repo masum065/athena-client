@@ -31,9 +31,9 @@ const Achivment = () => {
 		},
 	];
 	return (
-		<Container>
+		<Container className='py-5'>
 			<Row>
-				<Col lg={4}>
+				<Col lg={5}>
 					<div className='achivment-title'>
 						<h2>Our Achievements</h2>
 						<p>
@@ -45,7 +45,7 @@ const Achivment = () => {
 						</p>
 					</div>
 				</Col>
-				<Col lg={8}>
+				<Col lg={7}>
 					<Row className='achivment-wraper'>
 						{achivments.map((achivment, index) => (
 							<AchivmentCard key={index} achivment={achivment} />

@@ -8,8 +8,8 @@ function App() {
 	return (
 		<>
 			<Header />
-			<Achivment />
 			<StayRunning />
+			<Achivment />
 			<Footer />
 		</>
 	);
