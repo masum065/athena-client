@@ -10,10 +10,27 @@
     font-size: 14px!important;
     font-weight: 500;
 }
-.footer-btn-div{
-
-}
 .footer-btn{
     height: 40px;
     width: 140px;
+}
+
+.cta-area {
+    position: relative;
+    box-shadow: -3px 0px 10px #30bb8d29;
+    padding: 7px 5px;
+    border-radius: 2px;
+
+    input {
+        width: 75%;
+        border: none;
+        padding: 11px 15px 0 35px;
+        color: #353535;
+        font-size: 18px;
+    }
+    button {
+        border-radius: 0;
+        padding: 11px 22px;
+        border-radius: 4px;
+    }
 }
