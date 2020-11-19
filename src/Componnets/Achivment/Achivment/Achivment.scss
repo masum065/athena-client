@@ -1,0 +1,13 @@
+.achivment-wraper{
+    .achivment-col:nth-child(even) .achivment-card {
+        border-radius: 70px 0;
+    }
+    :hover{
+        .achivment-col:nth-child(even) .achivment-card {
+            background: linear-gradient(45deg, #1CD8B8, #06AAEF);
+        }
+
+    }
+}
+
+
