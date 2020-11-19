@@ -1,5 +1,8 @@
 .achivment-wraper{
-    .achivment-col:nth-child(even) .achivment-card {
+    .achivment-col:nth-child(2) .achivment-card ,
+    .achivment-col:nth-child(3) .achivment-card 
+    
+    {
         border-radius: 70px 0;
     }
     :hover{
@@ -9,5 +12,16 @@
 
     }
 }
+.achivment-title{
+    padding: 60px 0;
+    h2{
+        font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+        font-size: 38px;
+    }
 
-
+    p {
+        color: #707070;
+        font-size: 16px;
+        margin-top: 18px;
+    }
+}

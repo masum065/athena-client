@@ -2,8 +2,34 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import AchivmentCard from '../AchivmentCard/AchivmentCard';
 import './Achivment.scss';
+import { ReactComponent as Happy } from '../../../images/happy.svg';
+import { ReactComponent as Marketing } from '../../../images/marketing.svg';
+import { ReactComponent as Surface } from '../../../images/surface.svg';
+import { ReactComponent as Transportation } from '../../../images/transportation.svg';
 
 const Achivment = () => {
+	const achivments = [
+		{
+			title: 'Happy Clients',
+			count: 700,
+			icon: <Happy />,
+		},
+		{
+			title: 'Projects Completed',
+			count: 140,
+			icon: <Marketing />,
+		},
+		{
+			title: 'Crazy Minds',
+			count: 25,
+			icon: <Surface />,
+		},
+		{
+			title: 'Running Projects',
+			count: 75,
+			icon: <Transportation />,
+		},
+	];
 	return (
 		<Container>
 			<Row>
@@ -21,8 +47,9 @@ const Achivment = () => {
 				</Col>
 				<Col lg={8}>
 					<Row className='achivment-wraper'>
-						<AchivmentCard />
-						<AchivmentCard />
+						{achivments.map((achivment, index) => (
+							<AchivmentCard key={index} achivment={achivment} />
+						))}
 					</Row>
 				</Col>
 			</Row>

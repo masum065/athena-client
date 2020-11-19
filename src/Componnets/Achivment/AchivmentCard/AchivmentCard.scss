@@ -2,20 +2,25 @@
 .achivment-card {
     background: #fff;
     display: flex;
-    padding: 30px;
+    padding: 20px;
     justify-content: center;
     align-items: center;
     border-radius: 0 70px;
-    box-shadow: 0px 0px 20px 20px #EFFEF8;
+    box-shadow: 0px 0px 10px 10px #EFFEF8;
     transition: all linear .3s;
     overflow: hidden;
+    margin-bottom: 20px;
 
 
     .achivment-icon {
         margin-right: 25px;
 
-        svg path{
-            fill: #707070;
+        svg {
+            height: 60px;
+            width: 60px;
+            path{
+                fill: #707070;
+            }
         }
     }
 
