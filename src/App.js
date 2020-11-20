@@ -11,11 +11,10 @@ function App() {
 		<>
 			<Header />
 			<Services/>
-     		<Achivment />
+     	<Achivment />
 			<StayRunning/>
 			<Price/>
 			<Footer />
-
 		</>
 	);
 }

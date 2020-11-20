@@ -10,9 +10,7 @@ const Banner = () => {
 			<Row className='banner-main'>
 				<Col lg={5}>
 					<div className='banner-content'>
-						<h1>
-							Florence <br /> agency
-						</h1>
+						<h1>Florence agency</h1>
 						<p>
 							Lorem Ipsum has been the industry's standard dummy
 							text ever since the 1500s, when an unknown printer
