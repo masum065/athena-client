@@ -1,17 +1,16 @@
 import React from 'react';
 import { Col } from 'react-bootstrap';
-import { ReactComponent as Happy } from '../../../images/happy.svg';
 import './AchivmentCard.scss';
 
-const AchivmentCard = () => {
+const AchivmentCard = (props) => {
+	const { count, icon, title } = props.achivment;
+
 	return (
-		<Col className='achivment-col' lg={6}>
+		<Col className='achivment-col' md={6}>
 			<div className='achivment-card'>
-				<div className='achivment-icon'>
-					<Happy />
-				</div>
+				<div className='achivment-icon'>{icon}</div>
 				<h4>
-					700+ <span>Happy Clients</span>
+					{count}+ <span>{title}</span>
 				</h4>
 			</div>
 		</Col>

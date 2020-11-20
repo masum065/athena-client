@@ -2,30 +2,36 @@
 .achivment-card {
     background: #fff;
     display: flex;
-    padding: 30px;
+    padding: 30px 20px;
     justify-content: center;
     align-items: center;
     border-radius: 0 70px;
-    box-shadow: 0px 0px 20px 20px #EFFEF8;
+    box-shadow: 0px 0px 10px 10px #EFFEF8;
     transition: all linear .3s;
     overflow: hidden;
+    margin-bottom: 20px;
 
 
     .achivment-icon {
         margin-right: 25px;
 
-        svg path{
-            fill: #707070;
+        svg {
+            height: 60px;
+            width: 60px;
+            path{
+                fill: #707070;
+            }
         }
     }
 
     h4 {
         color: #707070;
-        font-size: 50px;
+        font-size: 40px;
+        font-weight: bold;
 
         span {
             display: block;
-            font-size: 20px;
+            font-size: 18px;
             font-weight: 300;
         }
     }
@@ -48,4 +54,36 @@
         color: #fff;
     }
 
+}
+
+/*small devices (portrait phones, less than 576px) */ 
+@media(min-width: 576px) and (max-width: 767px) {
+    .achivment-card {
+        padding: 66px 20px;
+        border-radius: 0 105px;
+
+        svg {
+            height: 100px !important;
+            width: 100px !important;
+        }
+         h4 {
+            font-size: 60px;
+
+            span{
+                font-size:23px;
+            }
+        }
+    }
+
+}
+/* Extra small devices (portrait phones, less than 576px) */ 
+@media(min-width: 320px) and (max-width: 575px) {
+    
+.achivment-card {
+    padding: 64px 20px;
+    border-radius: 0 100px;
+}
+.achivment-title h2 {
+    font-size: 45px;
+}
 }

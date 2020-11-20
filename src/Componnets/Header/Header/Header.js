@@ -7,7 +7,7 @@ const Header = () => {
 	return (
 		<header>
 			<Menu />
-			<Banner />
+			<Banner/>
 		</header>
 	);
 };
