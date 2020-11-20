@@ -10,12 +10,18 @@ function App() {
 	return (
 		<>
 			<Header />
+<<<<<<< HEAD
 			<Services/>
      		 <Achivment />
 			<StayRunning/>
 			<Price/>
 			<Footer/>
 			
+=======
+			<StayRunning />
+			<Achivment />
+			<Footer />
+>>>>>>> 9101442d9a6b1f27d1e7b9c37cfcacc3ee17a33b
 		</>
 	);
 }
