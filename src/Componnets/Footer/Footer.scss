@@ -35,7 +35,15 @@
     }
 }
 
-
+/*small devices (portrait phones, less than 576px) */ 
+@media(min-width: 576px) and (max-width: 767px) {
+    .cta-area input {
+        width: 72%;
+    }
+    .res-center{
+        text-align: center;
+    }
+}
 @media (max-width: 600px){
     .cta-area{
         input{
@@ -44,6 +52,10 @@
         & ::placeholder{
             font-size:16px;
         }
+    }
+
+    .res-center{
+        text-align: center;
     }
 
 

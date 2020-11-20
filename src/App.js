@@ -10,10 +10,10 @@ function App() {
 	return (
 		<>
 			<Header />
-			<Services/>
-     	<Achivment />
-			<StayRunning/>
-			<Price/>
+			<Services />
+			<StayRunning />
+			<Achivment />
+			<Price />
 			<Footer />
 		</>
 	);
