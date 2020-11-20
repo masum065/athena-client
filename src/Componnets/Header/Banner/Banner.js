@@ -21,7 +21,7 @@ const Banner = () => {
 						<MainButton>See Pricing</MainButton>
 					</div>
 				</Col>
-				<Col lg={7}>
+				<Col lg={7} >
 					<img src={bannerImage} alt='' className='banner-image' />
 				</Col>
 			</Row>
