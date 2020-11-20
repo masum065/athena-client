@@ -1,0 +1,35 @@
+@import '../../App.scss';
+
+.pricing{
+    padding:100px;
+    background:url(../../images/pricing-bg.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:-550px -150px;
+
+    .price-level{
+        width:400;
+        height:800px;
+        background:$primary-color;
+        box-sizing: border-box;
+        box-shadow: 0 0 600px rgba(245, 240, 240, 0.473);
+        margin-right: 20px;
+        h2{
+            font-size:67;
+            color:text-color;
+            padding-top: 50px;
+            padding-bottom: 20px;
+        }
+        span{
+            padding:50px;
+        }
+        p{
+            font-size: 24px;
+            line-height: 50px;
+            font-weight: 500px;
+        }
+    }
+    .mr-level{
+        margin-right: -30px;
+    }
+}
