@@ -6,7 +6,7 @@ const AchivmentCard = (props) => {
 	const { count, icon, title } = props.achivment;
 
 	return (
-		<Col className='achivment-col' lg={6}>
+		<Col className='achivment-col' md={6}>
 			<div className='achivment-card'>
 				<div className='achivment-icon'>{icon}</div>
 				<h4>

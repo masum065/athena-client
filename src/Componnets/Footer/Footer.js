@@ -17,7 +17,8 @@ const Footer = () => {
 				<h5 className='text-center text-muted mt-3'>
 					Be the first know our latest offers and updates
 				</h5>
-				<div className='col-md-7 mx-auto py-5'>
+
+				<div className='col-lg-7 mx-auto py-5'>
 					<div className='cta-area'>
 						<input
 							type='email'
@@ -29,7 +30,7 @@ const Footer = () => {
 					</div>
 				</div>
 				<div className='footer-part'>
-					<div className='row'>
+					<div className='row res-center'>
 						<div className='col-md-4 col-12 col-sm-12'>
 							<div className='my-4'>
 								<img
