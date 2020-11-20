@@ -34,3 +34,17 @@
         border-radius: 4px;
     }
 }
+
+
+@media (max-width: 600px){
+    .cta-area{
+        input{
+            width: 62%;
+        }
+        & ::placeholder{
+            font-size:16px;
+        }
+    }
+
+
+}

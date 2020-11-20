@@ -8,10 +8,10 @@ export const Price = () => {
          <Container className="text-center">
              <h2>CHOOSE YOUR DEDICATED TEAM</h2>
             <Row>
-                <Col lg={4}>
-                <div className="price-level mb-2">
+                <Col lg={4} md={12} sm={12}>
+                <div className="price-level mb-2" >
                 <h2>$199</h2>
-                 <span>For Basic</span>
+                <p><small>For Basic</small></p> 
                  <p>Homepage</p>
                  <p>No Inner Page</p>
                  <p>Asset file</p>
@@ -21,10 +21,10 @@ export const Price = () => {
                  <p>24/7 Support</p>
                 </div>
                 </Col>
-                <Col lg={4} className="price-level mb-2">
-                <div>
+                <Col lg={4} sm={12} md={12}>
+                <div  className="price-level mb-2">
                 <h2>$399</h2>
-                 <span>For Preferred</span>
+                <p><small>For Preferred</small></p>
                  <p>Homepage</p>
                  <p>4 Inner Page</p>
                  <p>Asset file</p>
@@ -34,10 +34,10 @@ export const Price = () => {
                  <p>24/7 Support</p>
                 </div>
                 </Col>
-                <Col lg={4} className="price-level mr-level mb-2">
-                <div>
+                <Col lg={4} sm={12} md={12}>
+                <div  className="price-level mr-level mb-2">
                 <h2>$599</h2>
-                 <span>For Elite</span>
+                 <p><small>For Elite</small></p>
                  <p>Homepage</p>
                  <p>8 Inner Page</p>
                  <p>Asset file</p>

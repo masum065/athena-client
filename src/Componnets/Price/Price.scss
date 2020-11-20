@@ -5,31 +5,84 @@
     background:url(../../images/pricing-bg.png);
     background-repeat:no-repeat;
     background-size:cover;
-    background-position:-550px -150px;
-
+    background-position:-550px -50px;
+        h2{
+            padding: 50px;
+        }
     .price-level{
         width:400;
         height:800px;
         background:$primary-color;
         box-sizing: border-box;
-        box-shadow: 0 0 600px rgba(245, 240, 240, 0.473);
+        box-shadow: 0 0 60px rgba(245, 240, 240, 0.61);
         margin-right: 20px;
         h2{
             font-size:67;
-            color:text-color;
+             color: #707070;;
             padding-top: 50px;
             padding-bottom: 20px;
         }
-        span{
-            padding:50px;
         }
         p{
             font-size: 24px;
             line-height: 50px;
-            font-weight: 500px;
+            font-weight: 500px; 
+            color: #707070;   
+        }
+        p:nth-child(3){
+            padding-top: 40px;
+        }
+        p small{
+            position: relative;
+            
+        }
+        p small::after{
+            position: absolute;
+            content: '';
+            width:100%;
+            left: 0;
+            bottom: -20px;
+            border: 2px solid $secondary-color;
+            
+        }
+        .mr-level{
+            margin-right: -30px;
         }
     }
-    .mr-level{
-        margin-right: -30px;
-    }
-}
+     
+@media (max-width: 600px){
+        .pricing{
+            h2{
+                font-size: 20px;
+                padding: 30px;
+                text-align: center;
+            }
+        }
+        .price-level{
+            width:350px;
+            height: 510px;
+            h2{
+                font-size:67;
+                color:#707070;
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+            p small::after{
+                width: 270px;
+                left: -80px;
+
+            }
+            p{
+                color: #707070;
+                font-size: 16px;
+            }
+            }
+            
+            
+            .mr-level{
+                margin-right: 0px;
+            }
+
+        }
+        
+    
